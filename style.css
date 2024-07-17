@@ -1,0 +1,32 @@
+.flex-container {
+    background-color: tomato;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.flexbox {
+    width: 150px;
+    margin: 15px;
+    padding: 3px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox1 {
+    background-color: aqua;
+    min-height: 100px;
+    flex-grow: 0;
+}
+
+.flexbox2 {
+    background-color: blue;
+    min-height: 200px;
+    flex-grow: 2;
+}
+
+.flexbox3 {
+    background-color: blueviolet;
+    min-height: 300px;
+    flex-grow: 1;
+}
