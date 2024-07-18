@@ -93,10 +93,11 @@ button {
 
 .flex-container {
     background-color: rgb(8, 19, 68);
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     padding: 70px;
     display: flex;
+    gap: 120px;
 }
 
 .title-product {
