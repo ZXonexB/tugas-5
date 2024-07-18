@@ -1,32 +1,142 @@
-.flex-container {
-    background-color: tomato;
-    justify-content: space-around;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #292753;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 0 80px 0;
+    margin: 0 0 30px 0;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mid {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.h11 h1 {
+    font-size: xx-small;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    max-width: 30px;
+    margin: auto;
+    justify-content: center;
+}
+
+.borrd {
+    background-color: #1cc844;
+    color: #fff;
+}
+
+.mid h2 {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.mid p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #6c757d;
+    
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.demo-btn {
+    background-color: #11ca3c;
+    color: #fff;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-btn {
+    background-color: #6c757d;
+    color: #fff;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    background-color: rgb(8, 19, 68);
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 70px;
+    display: flex;
+}
+
+.title-product {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flexbox {
     width: 150px;
-    margin: 15px;
-    padding: 3px;
+    margin: 30px;
+    padding: 5px;
     border: 3px solid #333;
     background-color: #dfdfdf;
 }
 
 .flexbox1 {
-    background-color: aqua;
-    min-height: 100px;
-    flex-grow: 0;
+    background-color: white;
+    min-height: 200px;
+    border-radius: 20px;
 }
 
 .flexbox2 {
-    background-color: blue;
+    background-color: white;
     min-height: 200px;
-    flex-grow: 2;
+    border-radius: 20px;
 }
 
 .flexbox3 {
-    background-color: blueviolet;
-    min-height: 300px;
-    flex-grow: 1;
+    background-color: white;
+    min-height: 200px;
+    border-radius: 20px;
+}
+
+.flexbox4 {
+    background-color: white;
+    min-height: 200px;
+    border-radius: 20px;
+}
+
+div h1 {
+    text-align: center;
+    font-size: medium;
 }
